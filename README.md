@@ -25,4 +25,8 @@ The script requests a web page and subsequently parses its content to construct 
 
 Following the initial page processing, the script proceeds to extract information related to pagination links, constructs a new URI, and repeats the entire process until the last page is successfully processed.
 
-Upon completion of the data extraction process, the script generates a CSV (comma-separated value) file that contains the gathered data.
+Upon completion of the data extraction process, the script generates a CSV (comma-separated value) file that contains the gathered data. For example:
+
+```bash
+https://cdn.ast.ru/v2/ASE000000000850257/COVER/cover1__w220.jpg,"Золотой теленок","Ильф Илья Арнольдович"
+```
